@@ -1,0 +1,63 @@
+:root {
+    --color-primary: #fff;
+    --color-secondary: #1b2330; //Dark Blue (intro and email sign up background)
+    --color-secondary-dark-1: #171e2a; //Dark Blue (main background)
+    --color-secondary-dark-2: #20293b; //Dark Blue (testimonials background)
+    --color-secondary-light: #0a1423; //Dark Blue (footer background)
+    --color-tertiary-light: hsl(176, 68%, 64%);
+    --color-tertiary-dark: hsl(198, 60%, 50%);
+
+    --color-black: #000;
+    --color-black-shadow: rgba(0, 0, 0, 0.75);
+    --btn-gredient: linear-gradient(to right, var(--color-tertiary-light), var(--color-tertiary-dark));
+    --shadow-primary: 0.8rem 0.8rem 4rem -1rem var(--color-black-shadow);
+
+
+   --color-fb-logo: #3C5A99;
+   --color-tw-logo: #1DA1F2;
+   --color-insta-logo: #C13584;
+}
+
+
+$bp-xl : 90em; // 1440px
+$bp-lg : 75em; // 1200
+$bp-md : 56.25em; // 900
+$bp-sm : 37.5em; // 600
+$bp-xs : 25em; // 400
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+    @media only screen and (max-width: $bp-md) {
+        font-size: 55%;
+    }
+
+    @media(max-width: $bp-sm) {
+        font-size: 45%;
+    }
+
+    @media(max-width: $bp-xs) {
+        font-size: 40%;
+    }
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 1.4rem;
+    color: var(--color-primary);
+    background-color: var(--color-secondary-dark-1);
+}
