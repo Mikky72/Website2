@@ -2,4 +2,4 @@
 A website with Pure SASS No FRAMEWORK
 
 Live Preview:
-https://mikky72.github.io/Website2/
+https://mo-othman.github.io/Website2/
